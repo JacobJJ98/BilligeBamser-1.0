@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>47A1A90E-99DA-4754-830A-5839FC2C4072</key>
+		<key>1326AD1C-F085-4D04-857D-AD8583658545</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>47A1A90E-99DA-4754-830A-5839FC2C4072.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Pods-BilligeBamser_1.0-cvqfeqjyrevpisfdgyehiisbjdjf</string>
-			<key>timeStartedRecording</key>
-			<real>593535778.75119901</real>
-			<key>timeStoppedRecording</key>
-			<real>593535782.27274406</real>
-			<key>title</key>
-			<string>Build target Pods-BilligeBamser 1.0</string>
-			<key>uniqueIdentifier</key>
-			<string>47A1A90E-99DA-4754-830A-5839FC2C4072</string>
-		</dict>
-		<key>76B82BE5-11DD-49BF-AE14-A830C7272D00</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>76B82BE5-11DD-49BF-AE14-A830C7272D00.xcactivitylog</string>
+			<string>1326AD1C-F085-4D04-857D-AD8583658545.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,15 @@
 			<key>signature</key>
 			<string>ESTabBarController-swift-cvqfeqjyrevpisfdgyehiisbjdjf</string>
 			<key>timeStartedRecording</key>
-			<real>593535778.75270998</real>
+			<real>593543260.52555096</real>
 			<key>timeStoppedRecording</key>
-			<real>593535782.12511504</real>
+			<real>593543264.29718101</real>
 			<key>title</key>
 			<string>Build target ESTabBarController-swift</string>
 			<key>uniqueIdentifier</key>
-			<string>76B82BE5-11DD-49BF-AE14-A830C7272D00</string>
+			<string>1326AD1C-F085-4D04-857D-AD8583658545</string>
 		</dict>
-		<key>7F8324A8-7C23-4502-A462-DFBF790928F6</key>
+		<key>510C77D6-02C5-4188-BCB5-C6A3F39E190E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>7F8324A8-7C23-4502-A462-DFBF790928F6.xcactivitylog</string>
+			<string>510C77D6-02C5-4188-BCB5-C6A3F39E190E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +54,41 @@
 			<key>signature</key>
 			<string>BilligeBamser_1.0-dfpjgazfxydrlvdzculckqqirhhr</string>
 			<key>timeStartedRecording</key>
-			<real>593541606.01619804</real>
+			<real>593543260.53521395</real>
 			<key>timeStoppedRecording</key>
-			<real>593541612.01746202</real>
+			<real>593543271.76800203</real>
 			<key>title</key>
 			<string>Build target BilligeBamser 1.0</string>
 			<key>uniqueIdentifier</key>
-			<string>7F8324A8-7C23-4502-A462-DFBF790928F6</string>
+			<string>510C77D6-02C5-4188-BCB5-C6A3F39E190E</string>
+		</dict>
+		<key>69FD3670-6217-4D2C-8B5C-9110F131446F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>69FD3670-6217-4D2C-8B5C-9110F131446F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-BilligeBamser_1.0-cvqfeqjyrevpisfdgyehiisbjdjf</string>
+			<key>timeStartedRecording</key>
+			<real>593543260.53295398</real>
+			<key>timeStoppedRecording</key>
+			<real>593543264.43597996</real>
+			<key>title</key>
+			<string>Build target Pods-BilligeBamser 1.0</string>
+			<key>uniqueIdentifier</key>
+			<string>69FD3670-6217-4D2C-8B5C-9110F131446F</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

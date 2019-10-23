@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "a3da6a2e383a02154694fba41b7d4fda"
-build_time: [1571848806, 57547000]
+build_time: [1571850464, 462657000]
 inputs:
   "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ViewController.swift": [1571848805, 943183734]
   "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/OpretBajerViewController.swift": [1571745905, 29217903]
