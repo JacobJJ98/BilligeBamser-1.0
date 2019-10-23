@@ -205,7 +205,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UIApplication;
 
 SWIFT_CLASS("_TtC17BilligeBamser_1_011AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
@@ -284,8 +284,9 @@ SWIFT_CLASS("_TtC17BilligeBamser_1_017TabBarContentView")
 
 
 SWIFT_CLASS("_TtC17BilligeBamser_1_014ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITabBarControllerDelegate>
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

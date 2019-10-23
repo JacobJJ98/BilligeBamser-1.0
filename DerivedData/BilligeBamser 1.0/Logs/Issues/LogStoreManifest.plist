@@ -62,7 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>76B82BE5-11DD-49BF-AE14-A830C7272D00</string>
 		</dict>
-		<key>F95FAB77-0727-4FF2-AEDE-6E6D6231C124</key>
+		<key>7F8324A8-7C23-4502-A462-DFBF790928F6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>F95FAB77-0727-4FF2-AEDE-6E6D6231C124.xcactivitylog</string>
+			<string>7F8324A8-7C23-4502-A462-DFBF790928F6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>BilligeBamser_1.0-dfpjgazfxydrlvdzculckqqirhhr</string>
 			<key>timeStartedRecording</key>
-			<real>593536094.57891297</real>
+			<real>593541606.01619804</real>
 			<key>timeStoppedRecording</key>
-			<real>593536097.456442</real>
+			<real>593541612.01746202</real>
 			<key>title</key>
 			<string>Build target BilligeBamser 1.0</string>
 			<key>uniqueIdentifier</key>
-			<string>F95FAB77-0727-4FF2-AEDE-6E6D6231C124</string>
+			<string>7F8324A8-7C23-4502-A462-DFBF790928F6</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
