@@ -6,16 +6,16 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>B2D2CDA8-EF73-44A6-81BC-50DD445DCB29</key>
+		<key>47A1A90E-99DA-4754-830A-5839FC2C4072</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>B2D2CDA8-EF73-44A6-81BC-50DD445DCB29.xcactivitylog</string>
+			<string>47A1A90E-99DA-4754-830A-5839FC2C4072.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -24,15 +24,71 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
+			<string>Pods-BilligeBamser_1.0-cvqfeqjyrevpisfdgyehiisbjdjf</string>
+			<key>timeStartedRecording</key>
+			<real>593535778.75119901</real>
+			<key>timeStoppedRecording</key>
+			<real>593535782.27274406</real>
+			<key>title</key>
+			<string>Build target Pods-BilligeBamser 1.0</string>
+			<key>uniqueIdentifier</key>
+			<string>47A1A90E-99DA-4754-830A-5839FC2C4072</string>
+		</dict>
+		<key>76B82BE5-11DD-49BF-AE14-A830C7272D00</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>76B82BE5-11DD-49BF-AE14-A830C7272D00.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>ESTabBarController-swift-cvqfeqjyrevpisfdgyehiisbjdjf</string>
+			<key>timeStartedRecording</key>
+			<real>593535778.75270998</real>
+			<key>timeStoppedRecording</key>
+			<real>593535782.12511504</real>
+			<key>title</key>
+			<string>Build target ESTabBarController-swift</string>
+			<key>uniqueIdentifier</key>
+			<string>76B82BE5-11DD-49BF-AE14-A830C7272D00</string>
+		</dict>
+		<key>F95FAB77-0727-4FF2-AEDE-6E6D6231C124</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>F95FAB77-0727-4FF2-AEDE-6E6D6231C124.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
 			<string>BilligeBamser_1.0-dfpjgazfxydrlvdzculckqqirhhr</string>
 			<key>timeStartedRecording</key>
-			<real>592428522.56009102</real>
+			<real>593536094.57891297</real>
 			<key>timeStoppedRecording</key>
-			<real>592428526.87471199</real>
+			<real>593536097.456442</real>
 			<key>title</key>
 			<string>Build target BilligeBamser 1.0</string>
 			<key>uniqueIdentifier</key>
-			<string>B2D2CDA8-EF73-44A6-81BC-50DD445DCB29</string>
+			<string>F95FAB77-0727-4FF2-AEDE-6E6D6231C124</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

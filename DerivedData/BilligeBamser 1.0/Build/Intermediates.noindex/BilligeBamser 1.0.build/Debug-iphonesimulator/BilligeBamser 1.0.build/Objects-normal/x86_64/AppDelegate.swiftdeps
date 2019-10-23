@@ -14,16 +14,29 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "=="
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
-- !private "BooleanLiteralType"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "CustomTabbarController"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
+- !private "UIStoryboard"
+- "UITabBarControllerDelegate"
+- !private "UIViewController"
 - "UIWindow"
 depends-member:
 - ["17BilligeBamser_1_011AppDelegateC", "Bool"]
+- !private ["17BilligeBamser_1_011AppDelegateC", "CustomTabbarController"]
 - ["17BilligeBamser_1_011AppDelegateC", "UIApplication"]
+- !private ["17BilligeBamser_1_011AppDelegateC", "UIStoryboard"]
+- !private ["17BilligeBamser_1_011AppDelegateC", "UIViewController"]
 - ["17BilligeBamser_1_011AppDelegateC", "UIWindow"]
 - ["17BilligeBamser_1_011AppDelegateC", "application"]
 - ["17BilligeBamser_1_011AppDelegateC", "applicationDidBecomeActive"]
@@ -39,8 +52,14 @@ depends-member:
 - ["17BilligeBamser_1_011AppDelegateC", "applicationWillTerminate"]
 - ["17BilligeBamser_1_011AppDelegateC", "deinit"]
 - ["17BilligeBamser_1_011AppDelegateC", "init"]
+- ["17BilligeBamser_1_011AppDelegateC", "tabBarController"]
+- ["17BilligeBamser_1_011AppDelegateC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["17BilligeBamser_1_011AppDelegateC", "tabBarControllerSupportedInterfaceOrientations"]
 - ["17BilligeBamser_1_011AppDelegateC", "window"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "CustomTabbarController"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
+- !private ["s7CVarArgP", "UIStoryboard"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
@@ -55,8 +74,17 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shouldHijackHandler"]
+- ["s7CVarArgP", "tabBarController"]
+- ["s7CVarArgP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["s7CVarArgP", "window"]
+- !private ["s28CustomDebugStringConvertibleP", "CustomTabbarController"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
@@ -71,8 +99,17 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldHijackHandler"]
+- ["s28CustomDebugStringConvertibleP", "tabBarController"]
+- ["s28CustomDebugStringConvertibleP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s23CustomStringConvertibleP", "CustomTabbarController"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
@@ -87,8 +124,24 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shouldHijackHandler"]
+- ["s23CustomStringConvertibleP", "tabBarController"]
+- ["s23CustomStringConvertibleP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["17BilligeBamser_1_022CustomTabbarControllerC", "deinit"]
+- !private ["17BilligeBamser_1_022CustomTabbarControllerC", "init"]
+- !private ["17BilligeBamser_1_022CustomTabbarControllerC", "shouldHijackHandler"]
+- !private ["24ESTabBarController_swift0abC0C", "init"]
+- !private ["24ESTabBarController_swift0abC0C", "shouldHijackHandler"]
+- !private ["24ESTabBarController_swift0aB8DelegateP", "init"]
+- !private ["24ESTabBarController_swift0aB8DelegateP", "shouldHijackHandler"]
+- !private ["SQ", "CustomTabbarController"]
 - ["SQ", "LaunchOptionsKey"]
+- !private ["SQ", "UIStoryboard"]
 - ["SQ", ""]
 - ["SQ", "application"]
 - ["SQ", "applicationDidBecomeActive"]
@@ -103,8 +156,17 @@ depends-member:
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "present"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "shouldHijackHandler"]
+- ["SQ", "tabBarController"]
+- ["SQ", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "tabBarControllerSupportedInterfaceOrientations"]
 - ["SQ", "window"]
+- !private ["SH", "CustomTabbarController"]
 - ["SH", "LaunchOptionsKey"]
+- !private ["SH", "UIStoryboard"]
 - ["SH", ""]
 - ["SH", "application"]
 - ["SH", "applicationDidBecomeActive"]
@@ -119,10 +181,27 @@ depends-member:
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "present"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "shouldHijackHandler"]
+- ["SH", "tabBarController"]
+- ["SH", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "tabBarControllerSupportedInterfaceOrientations"]
 - ["SH", "window"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "shouldHijackHandler"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "shouldHijackHandler"]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CustomTabbarController"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "UIViewController"]
 - ["So8NSObjectC", "UIWindow"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
@@ -137,8 +216,17 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shouldHijackHandler"]
+- ["So8NSObjectC", "tabBarController"]
+- ["So8NSObjectC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "CustomTabbarController"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
+- !private ["So8NSObjectP", "UIStoryboard"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
@@ -153,8 +241,23 @@ depends-member:
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "shouldHijackHandler"]
+- ["So8NSObjectP", "tabBarController"]
+- ["So8NSObjectP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So8NSObjectP", "window"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "shouldHijackHandler"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "CustomTabbarController"]
+- !private ["So21UIApplicationDelegateP", "UIStoryboard"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
@@ -168,8 +271,25 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- ["So21UIApplicationDelegateP", "tabBarController"]
+- ["So21UIApplicationDelegateP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIApplicationDelegateP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So21UIApplicationDelegateP", "window"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "shouldHijackHandler"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "shouldHijackHandler"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "CustomTabbarController"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
@@ -184,10 +304,19 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shouldHijackHandler"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarController"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CustomTabbarController"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- !private ["So11UIResponderC", "UIViewController"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "application"]
@@ -203,8 +332,16 @@ depends-member:
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shouldHijackHandler"]
+- ["So11UIResponderC", "tabBarController"]
+- ["So11UIResponderC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "CustomTabbarController"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
@@ -219,8 +356,50 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shouldHijackHandler"]
+- ["So30UIResponderStandardEditActionsP", "tabBarController"]
+- ["So30UIResponderStandardEditActionsP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "shouldHijackHandler"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITabBarControllerC", "init"]
+- !private ["So18UITabBarControllerC", "present"]
+- !private ["So18UITabBarControllerC", "shouldHijackHandler"]
+- !private ["So26UITabBarControllerDelegateP", "CustomTabbarController"]
+- !private ["So26UITabBarControllerDelegateP", "UIStoryboard"]
+- ["So26UITabBarControllerDelegateP", ""]
+- ["So26UITabBarControllerDelegateP", "application"]
+- ["So26UITabBarControllerDelegateP", "applicationDidBecomeActive"]
+- ["So26UITabBarControllerDelegateP", "applicationDidEnterBackground"]
+- ["So26UITabBarControllerDelegateP", "applicationDidFinishLaunching"]
+- ["So26UITabBarControllerDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So26UITabBarControllerDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So26UITabBarControllerDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So26UITabBarControllerDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So26UITabBarControllerDelegateP", "applicationSignificantTimeChange"]
+- ["So26UITabBarControllerDelegateP", "applicationWillEnterForeground"]
+- ["So26UITabBarControllerDelegateP", "applicationWillResignActive"]
+- ["So26UITabBarControllerDelegateP", "applicationWillTerminate"]
+- ["So26UITabBarControllerDelegateP", "tabBarController"]
+- ["So26UITabBarControllerDelegateP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26UITabBarControllerDelegateP", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So26UITabBarControllerDelegateP", "window"]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "present"]
+- !private ["So16UITabBarDelegateP", "shouldHijackHandler"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "shouldHijackHandler"]
+- !private ["So23UIUserActivityRestoringP", "CustomTabbarController"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "application"]
 - ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
@@ -235,8 +414,21 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillResignActive"]
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "shouldHijackHandler"]
+- ["So23UIUserActivityRestoringP", "tabBarController"]
+- ["So23UIUserActivityRestoringP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So23UIUserActivityRestoringP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["So23UIUserActivityRestoringP", "window"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "shouldHijackHandler"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CustomTabbarController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
@@ -251,8 +443,17 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldHijackHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CustomTabbarController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidBecomeActive"]
@@ -267,24 +468,58 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldHijackHandler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarControllerSupportedInterfaceOrientations"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
 - "17BilligeBamser_1_011AppDelegateC"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- !private "17BilligeBamser_1_022CustomTabbarControllerC"
+- !private "24ESTabBarController_swift0abC0C"
+- !private "24ESTabBarController_swift0aB8DelegateP"
 - "SQ"
 - "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITabBarControllerC"
+- "So26UITabBarControllerDelegateP"
+- !private "So16UITabBarDelegateP"
+- !private "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -313,6 +548,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nicolaidam/Documents/BilligeBamser-1.0/DerivedData/BilligeBamser 1.0/Build/Products/Debug-iphonesimulator/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/ESTabBarController_swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_timeval64.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_ucontext64.h"
@@ -327,6 +563,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIO.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/alloca.h"
+- "/Users/nicolaidam/Documents/BilligeBamser-1.0/DerivedData/BilligeBamser 1.0/Build/Products/Debug-iphonesimulator/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController-swift-umbrella.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/dispatch/data.h"
@@ -1300,6 +1537,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSDataAsset.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageAsset.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_fd_isset.h"
+- "/Users/nicolaidam/Documents/BilligeBamser-1.0/DerivedData/BilligeBamser 1.0/Build/Products/Debug-iphonesimulator/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController_swift-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/wait.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/bsm/audit.h"
@@ -1480,6 +1718,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/FileProvider.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UserNotifications.framework/Modules/module.modulemap"
+- "/Users/nicolaidam/Documents/BilligeBamser-1.0/DerivedData/BilligeBamser 1.0/Build/Products/Debug-iphonesimulator/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Security.framework/Modules/module.modulemap"
@@ -1497,4 +1736,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "2ca3f9a8c298c8bdad6085b75ce0bb67"
+interface-hash: "03f275960f3b778866ea62cdbc89a281"

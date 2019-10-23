@@ -1,8 +1,13 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
-options: "c57e2a7920539c010f78bedb18037ea1"
-build_time: [1570733705, 177051000]
+options: "a3da6a2e383a02154694fba41b7d4fda"
+build_time: [1571843294, 588989000]
 inputs:
-  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ViewController.swift": [1570636477, 475565144]
-  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/MainUITabBarController.swift": [1570733705, 105991383]
-  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/OpretBajerViewController.swift": [1570647103, 74887485]
-  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/AppDelegate.swift": [1570636477, 471894648]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ViewController.swift": [1571752859, 351262118]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/OpretBajerViewController.swift": [1571745905, 29217903]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/CustomTabbarController.swift": [1571843294, 500200175]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ExampleBouncesContentView.swift": [1555880964, 0]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/TabbarContentView.swift": [1571754173, 83650234]
+  "/Users/nicolaidam/Downloads/ESTabBarDemo/ESTabBarDemo/ExampleBasicContentView.swift": [1565082958, 0]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ExampleNavigationController.swift": [1571752956, 421917618]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/AppDelegate.swift": [1571764564, 243321581]
+  "/Users/nicolaidam/Documents/BilligeBamser-1.0/BilligeBamser 1.0/ExampleIrregularityContentView.swift": [1571742275, 464361256]

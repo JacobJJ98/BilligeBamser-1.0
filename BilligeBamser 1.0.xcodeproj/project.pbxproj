@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		287ECAE9234E3D9800487427 /* MainUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ECAE8234E3D9800487427 /* MainUITabBarController.swift */; };
+		1112CF47137F68A17D3219AA /* Pods_BilligeBamser_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D24B66E3431F04C980C71C7 /* Pods_BilligeBamser_1_0.framework */; };
+		285B6462235F1447009EA3F7 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B645E235F143C009EA3F7 /* ExampleIrregularityContentView.swift */; };
+		285B6464235F1447009EA3F7 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B6460235F1445009EA3F7 /* ExampleBouncesContentView.swift */; };
+		285B6465235F1447009EA3F7 /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B6461235F1447009EA3F7 /* ExampleNavigationController.swift */; };
+		285B6467235F2582009EA3F7 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B6466235F2581009EA3F7 /* ExampleBasicContentView.swift */; };
+		285B646B235F27F1009EA3F7 /* OpretBajerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B646A235F27F1009EA3F7 /* OpretBajerViewController.swift */; };
+		285B6485235F4415009EA3F7 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B6484235F4415009EA3F7 /* CustomTabbarController.swift */; };
+		285B6487235F4441009EA3F7 /* TabbarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B6486235F4441009EA3F7 /* TabbarContentView.swift */; };
 		287ECAED234E541800487427 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287ECAEC234E541800487427 /* Theme.xcassets */; };
-		287ECAEF234E5FF200487427 /* OpretBajerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ECAEE234E5FF200487427 /* OpretBajerViewController.swift */; };
 		28C5E9C2234F9BEA00BE284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5E9C1234F9BEA00BE284D /* Assets.xcassets */; };
 		EE805A31234DF9B40095651D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE805A30234DF9B40095651D /* AppDelegate.swift */; };
 		EE805A33234DF9B40095651D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE805A32234DF9B40095651D /* ViewController.swift */; };
@@ -18,10 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		287ECAE8234E3D9800487427 /* MainUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITabBarController.swift; sourceTree = "<group>"; };
+		285B645E235F143C009EA3F7 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		285B6460235F1445009EA3F7 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		285B6461235F1447009EA3F7 /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		285B6466235F2581009EA3F7 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleBasicContentView.swift; path = ../../../Downloads/ESTabBarDemo/ESTabBarDemo/ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		285B646A235F27F1009EA3F7 /* OpretBajerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpretBajerViewController.swift; sourceTree = "<group>"; };
+		285B6484235F4415009EA3F7 /* CustomTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		285B6486235F4441009EA3F7 /* TabbarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarContentView.swift; sourceTree = "<group>"; };
 		287ECAEC234E541800487427 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
-		287ECAEE234E5FF200487427 /* OpretBajerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpretBajerViewController.swift; sourceTree = "<group>"; };
 		28C5E9C1234F9BEA00BE284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E17A24FA61971C0BF4563D /* Pods-BilligeBamser 1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilligeBamser 1.0.release.xcconfig"; path = "Target Support Files/Pods-BilligeBamser 1.0/Pods-BilligeBamser 1.0.release.xcconfig"; sourceTree = "<group>"; };
+		5D24B66E3431F04C980C71C7 /* Pods_BilligeBamser_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilligeBamser_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81890CC6435BC2A4EE12B003 /* Pods-BilligeBamser 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilligeBamser 1.0.debug.xcconfig"; path = "Target Support Files/Pods-BilligeBamser 1.0/Pods-BilligeBamser 1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		EE805A2D234DF9B40095651D /* BilligeBamser 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BilligeBamser 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE805A30234DF9B40095651D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE805A32234DF9B40095651D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1112CF47137F68A17D3219AA /* Pods_BilligeBamser_1_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0450D239BD36F12F69FB0A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81890CC6435BC2A4EE12B003 /* Pods-BilligeBamser 1.0.debug.xcconfig */,
+				47E17A24FA61971C0BF4563D /* Pods-BilligeBamser 1.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99FC65A6EDD2A7DEE5CD74A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D24B66E3431F04C980C71C7 /* Pods_BilligeBamser_1_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE805A24234DF9B40095651D = {
 			isa = PBXGroup;
 			children = (
 				EE805A2F234DF9B40095651D /* BilligeBamser 1.0 */,
 				EE805A2E234DF9B40095651D /* Products */,
+				0450D239BD36F12F69FB0A1A /* Pods */,
+				99FC65A6EDD2A7DEE5CD74A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +94,20 @@
 		EE805A2F234DF9B40095651D /* BilligeBamser 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				285B6484235F4415009EA3F7 /* CustomTabbarController.swift */,
+				285B6486235F4441009EA3F7 /* TabbarContentView.swift */,
+				285B6466235F2581009EA3F7 /* ExampleBasicContentView.swift */,
+				285B6460235F1445009EA3F7 /* ExampleBouncesContentView.swift */,
+				285B645E235F143C009EA3F7 /* ExampleIrregularityContentView.swift */,
+				285B6461235F1447009EA3F7 /* ExampleNavigationController.swift */,
 				EE805A30234DF9B40095651D /* AppDelegate.swift */,
 				EE805A32234DF9B40095651D /* ViewController.swift */,
 				EE805A34234DF9B40095651D /* Main.storyboard */,
-				287ECAEE234E5FF200487427 /* OpretBajerViewController.swift */,
-				287ECAE8234E3D9800487427 /* MainUITabBarController.swift */,
 				28C5E9C1234F9BEA00BE284D /* Assets.xcassets */,
 				287ECAEC234E541800487427 /* Theme.xcassets */,
 				EE805A39234DF9B60095651D /* LaunchScreen.storyboard */,
 				EE805A3C234DF9B60095651D /* Info.plist */,
+				285B646A235F27F1009EA3F7 /* OpretBajerViewController.swift */,
 			);
 			path = "BilligeBamser 1.0";
 			sourceTree = "<group>";
@@ -80,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE805A3F234DF9B60095651D /* Build configuration list for PBXNativeTarget "BilligeBamser 1.0" */;
 			buildPhases = (
+				16A7D08D79A2037D480A8D1F /* [CP] Check Pods Manifest.lock */,
 				EE805A29234DF9B40095651D /* Sources */,
 				EE805A2A234DF9B40095651D /* Frameworks */,
 				EE805A2B234DF9B40095651D /* Resources */,
+				02C08AF508131ED4E632FCE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,15 +181,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C08AF508131ED4E632FCE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilligeBamser 1.0/Pods-BilligeBamser 1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilligeBamser 1.0/Pods-BilligeBamser 1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BilligeBamser 1.0/Pods-BilligeBamser 1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16A7D08D79A2037D480A8D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BilligeBamser 1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE805A29234DF9B40095651D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE805A33234DF9B40095651D /* ViewController.swift in Sources */,
-				287ECAE9234E3D9800487427 /* MainUITabBarController.swift in Sources */,
-				287ECAEF234E5FF200487427 /* OpretBajerViewController.swift in Sources */,
+				285B646B235F27F1009EA3F7 /* OpretBajerViewController.swift in Sources */,
+				285B6485235F4415009EA3F7 /* CustomTabbarController.swift in Sources */,
+				285B6464235F1447009EA3F7 /* ExampleBouncesContentView.swift in Sources */,
+				285B6487235F4441009EA3F7 /* TabbarContentView.swift in Sources */,
+				285B6467235F2582009EA3F7 /* ExampleBasicContentView.swift in Sources */,
+				285B6465235F1447009EA3F7 /* ExampleNavigationController.swift in Sources */,
 				EE805A31234DF9B40095651D /* AppDelegate.swift in Sources */,
+				285B6462235F1447009EA3F7 /* ExampleIrregularityContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +380,7 @@
 		};
 		EE805A40234DF9B60095651D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81890CC6435BC2A4EE12B003 /* Pods-BilligeBamser 1.0.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B9KRX6NBR;
@@ -310,6 +399,7 @@
 		};
 		EE805A41234DF9B60095651D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E17A24FA61971C0BF4563D /* Pods-BilligeBamser 1.0.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B9KRX6NBR;

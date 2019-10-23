@@ -7,4 +7,6 @@ target 'BilligeBamser 1.0' do
 
   # Pods for BilligeBamser 1.0
 
+  pod 'ESTabBarController-swift'
+
 end
