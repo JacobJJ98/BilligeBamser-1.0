@@ -1,0 +1,16 @@
+PODS:
+  - ESTabBarController-swift (2.7)
+
+DEPENDENCIES:
+  - ESTabBarController-swift
+
+SPEC REPOS:
+  trunk:
+    - ESTabBarController-swift
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+
+PODFILE CHECKSUM: d6aa43490ab5f2d539b7a8ad39b710d5838a9e05
+
+COCOAPODS: 1.8.1
